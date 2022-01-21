@@ -1,0 +1,202 @@
+body{
+    width: 100%;
+   
+}
+.main{
+    margin: 6% 10%;
+}
+.head{
+    width: 80%;
+    display: flex;
+   flex-wrap: wrap;
+}
+.item2{
+    margin-top: 21px;
+    margin-left: auto;
+}
+.item3{/*the container of all the pictures, also wraps it and flexes it together*/
+    box-sizing: border-box;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 25%;
+    justify-content: space-between;/*this puts pace betwen the pics or div*/
+    flex-wrap: wrap;    
+}
+ 
+.picscontainer{
+    
+    flex: 1 0 calc(25% - 10px); /*using this make the mobile stay the wat it is*/
+    margin: 40px 0 0 40px;/*this helps to  keep the pictures in the right(40-top, 60 right) amount of rows that is 3 pics per row*/
+    display: inline-block;
+    width: 236px;/* the size of the div pics container*/
+    height: auto;
+    justify-content: center;
+   
+    
+    }
+    .titles1{
+        transform: rotate(90deg);
+        font-family: PT Serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        float: right;
+        position: relative;
+     bottom: 300px;
+    }
+ .titles2{
+   
+        transform: rotate(90deg);
+        font-family: PT Serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        float: right;
+        position: relative;
+     bottom: 300px;
+        left: -30px;
+     }
+  .titles4, .titles5, .titles6{
+    
+   transform: rotate(90deg);
+   font-family: PT Serif;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 16px;
+   letter-spacing: 0em;
+   text-align: left;
+   float: right;
+   position: relative;
+bottom: 300px;
+   left: -38px;
+
+}
+.titles3{
+    
+    transform: rotate(90deg);
+    font-family: PT Serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    float: right;
+    position: relative;
+ bottom: 300px;
+    left: -25px;
+ 
+ }
+    .pica{/*sizing of the picture*/
+            width: 236px;
+         height: auto;
+     }
+    
+    h1{
+        font-family: PT Serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.045em;
+        text-align: left;
+
+    }
+    h2{
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+ #twide{
+        width: 300px;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+ }
+
+
+.bot{
+    margin-top: 70px;
+    text-align: center;
+     font-size: 25px; 
+     opacity: 0.7; 
+  }
+  .desc{
+    font-family:  Poppins;
+    font-weight:600;
+    font-style:normal;
+    font-style:  18px;
+    line-height:  27px;
+  }
+  .pics2{
+    margin-top:100px;
+  }
+  .pics5{
+    margin-top:100px;
+  }
+  @media screen and (max-width:768px) {
+      .item3{
+          width: 350px;
+          height: auto;
+      }
+      .picscontainer{     
+        margin: 20px 0 0 20px;
+        display: inline-block;
+         height: auto;
+        }
+      
+      .pica{
+          width: 130px;
+          height: auto;
+      }
+      .desc{
+          font-size: 14px ;
+      }
+      .pics2{
+          margin-top: 50px;
+      }
+      .pics4{
+          margin-top: 50px;
+      }
+      .pics5{
+        margin-top: 0px;
+    }
+    .pics6{
+        margin-top: 50px;
+    }
+    .bot{
+        font-size:17px ;
+
+    }
+    .titles2, .titles4, .titles5, .titles6{
+        bottom:190px;
+        left: 10px;
+        font-size: 8px;
+    }
+    .titles1{
+        bottom:170px;
+        left: 26px;
+        font-size: 8px;
+    }
+    .titles3{
+        bottom:190px;
+        left: 15px;
+        font-size: 8px;
+    }
+  }

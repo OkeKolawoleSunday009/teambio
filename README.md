@@ -42,7 +42,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 - You can find my demo on my github account-
 - The experience was wild, alot of trial and rethink?
-- What i learned was how to effectively use flex ?
+- What i learned was how to effectively use flex
 - if i can so can anyone else :)
 
 ### Built With
@@ -65,10 +65,9 @@ This application/site was created as a submission to a [DevChallenges](https://d
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
 - [Marked - a markdown parser](https://github.com/chjj/marked)
 
 ## Contact
 
-- GitHub [@your-username](https://{github.com/your-usermame})
+- GitHub [@OkeKolawoleSunday009](https://{github.com/OkeKolawoleSunday009})
 
